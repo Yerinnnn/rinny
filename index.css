@@ -1,13 +1,8 @@
 #header {
     width: 100%;
-    height: 300px;
-    border: 1px solid gray;
-}
-
-#nav {
-    width: 100%;
-    height: 70px;
-    border: 1px solid gray;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid gray;
 }
 
 .content {
@@ -16,25 +11,33 @@
 
 .side {
     width: 15%;
-    border: 1px solid gray;
 }
 
-#leftSide {
+#navbar {
     float: left;
+    border-right: 1px solid gray;
+    overflow: hidden;
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+.navbar_section {
+
 }
 
 #rightSide {
     float: right;
+    border-left: 1px solid gray;
 }
 
-#article {
+#main {
     float: center;
     width: 70%;
-    border: 1px solid gray;
 }
 
 #footer {
     width: 100%;
     height: 100px;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
 }
